@@ -13,14 +13,16 @@ class PendaftaranPrestasi extends Pendaftaran {
         $this->tingkatPrestasi = $tingkatPrestasi;
     }
 
-    // OVERRIDE: Implementasi wajib dari class abstrak
+    // OVERRIDE: Menghitung total biaya pendaftaran prestasi
     public function hitungTotalBiaya() {
-        // Contoh: Prestasi mendapat potongan 100.000
-        $total = $this->biayaPendaftaranDasar - 100000;
-        return ($total < 0) ? 0 : $total; 
+        // Mendapatkan potongan/insentif apresiasi prestasi sebesar Rp50.000 dari biaya dasar
+        $totalBiaya = $this->biayaPendaftaranDasar - 50000;
+        
+        // Memastikan total biaya tidak bernilai negatif jika biaya dasar di bawah 50.000
+        return ($totalBiaya < 0) ? 0 : $totalBiaya;
     }
 
-    // OVERRIDE: Implementasi wajib dari class abstrak
+    // OVERRIDE: Menampilkan informasi spesifik jalur prestasi
     public function tampilkanInfoJalur() {
         return "Jalur Prestasi - Jenis: {$this->jenisPrestasi} (Tingkat {$this->tingkatPrestasi})";
     }

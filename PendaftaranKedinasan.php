@@ -13,12 +13,14 @@ class PendaftaranKedinasan extends Pendaftaran {
         $this->instansiSponsor = $instansiSponsor;
     }
 
-    // OVERRIDE: Implementasi wajib dari class abstrak
+    // OVERRIDE: Menghitung total biaya pendaftaran kedinasan
     public function hitungTotalBiaya() {
-        return 0; // Kedinasan disubsidi penuh (gratis)
+        // Dikenakan surcharge/biaya tambahan untuk pengurusan administrasi khusus 
+        // dan kemitraan dinas sebesar 25% (dikali 1.25) dari biaya dasar
+        return $this->biayaPendaftaranDasar * 1.25;
     }
 
-    // OVERRIDE: Implementasi wajib dari class abstrak
+    // OVERRIDE: Menampilkan informasi spesifik jalur kedinasan
     public function tampilkanInfoJalur() {
         return "Jalur Kedinasan - Sponsor: {$this->instansiSponsor} (SK: {$this->skIkatanDinas})";
     }

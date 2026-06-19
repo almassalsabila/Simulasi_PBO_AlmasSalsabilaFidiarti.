@@ -14,12 +14,13 @@ class PendaftaranReguler extends Pendaftaran {
         $this->lokasiKampus = $lokasiKampus;
     }
 
-    // OVERRIDE: Implementasi wajib dari class abstrak
+    // OVERRIDE: Menghitung total biaya pendaftaran reguler
     public function hitungTotalBiaya() {
-        return $this->biayaPendaftaranDasar; // Reguler membayar penuh
+        // Tarif standar murni tanpa biaya tambahan seleksi/tes laboratorium
+        return $this->biayaPendaftaranDasar;
     }
 
-    // OVERRIDE: Implementasi wajib dari class abstrak
+    // OVERRIDE: Menampilkan informasi spesifik jalur reguler
     public function tampilkanInfoJalur() {
         return "Jalur Reguler - Prodi: {$this->pilihanProdi}, Lokasi: {$this->lokasiKampus}";
     }
