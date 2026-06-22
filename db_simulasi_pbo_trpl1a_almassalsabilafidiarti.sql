@@ -61,12 +61,12 @@ INSERT INTO `tabel_pendaftaran` (`id_pendaftaran`, `nama_calon`, `asal_sekolah`,
 (12, 'Ayu Ting Ting', 'SMA 1 Pontianak', '89.50', '150000.00', 'prestasi', 'Teknik Informatika', 'Kampus Pusat', 'Lomba Web Design', 'Kabupaten', NULL, NULL),
 (13, 'Agung Hercules', 'SMK 3 Manado', '94.00', '150000.00', 'prestasi', 'Sistem Informasi', 'Kampus Pusat', 'Pencak Silat', 'Nasional', NULL, NULL),
 (14, 'Citra Kirana', 'SMA 1 Palembang', '91.00', '150000.00', 'prestasi', 'Teknik Komputer', 'Kampus Pusat', 'Olimpiade Fisika', 'Provinsi', NULL, NULL),
-(15, 'Iqbal Ramadhan', 'SMA Taruna Nusantara', '88.50', '0.00', 'kedinasan', 'Teknik Informatika', 'Kampus Pusat', NULL, NULL, 'SK-KED-001', 'Kementerian Kominfo'),
-(16, 'Chelsea Islan', 'SMA 1 Depok', '87.00', '0.00', 'kedinasan', 'Sistem Informasi', 'Kampus Pusat', NULL, NULL, 'SK-KED-002', 'BSSN'),
-(17, 'Reza Rahadian', 'SMK 1 Bogor', '86.50', '0.00', 'kedinasan', 'Manajemen Informatika', 'Kampus Pusat', NULL, NULL, 'SK-KED-003', 'Kementerian Keuangan'),
-(18, 'Dian Sastro', 'SMA 1 Bekasi', '89.00', '0.00', 'kedinasan', 'Teknik Komputer', 'Kampus Pusat', NULL, NULL, 'SK-KED-004', 'Kementerian Pertahanan'),
-(19, 'Nicholas Saputra', 'SMA 2 Tangerang', '85.00', '0.00', 'kedinasan', 'Teknik Informatika', 'Kampus Pusat', NULL, NULL, 'SK-KED-005', 'Pemprov DKI Jakarta'),
-(20, 'Tara Basro', 'SMK 1 Cirebon', '88.00', '0.00', 'kedinasan', 'Sistem Informasi', 'Kampus Pusat', NULL, NULL, 'SK-KED-006', 'Kementerian Dalam Negeri');
+(15, 'Iqbal Ramadhan', 'SMA Taruna Nusantara', '88.50', '200000.00', 'kedinasan', 'Teknik Informatika', 'Kampus Pusat', NULL, NULL, 'SK-KED-001', 'Kementerian Kominfo'),
+(16, 'Chelsea Islan', 'SMA 1 Depok', '87.00', '200000.00', 'kedinasan', 'Sistem Informasi', 'Kampus Pusat', NULL, NULL, 'SK-KED-002', 'BSSN'),
+(17, 'Reza Rahadian', 'SMK 1 Bogor', '86.50', '200000.00', 'kedinasan', 'Manajemen Informatika', 'Kampus Pusat', NULL, NULL, 'SK-KED-003', 'Kementerian Keuangan'),
+(18, 'Dian Sastro', 'SMA 1 Bekasi', '89.00', '200000.00', 'kedinasan', 'Teknik Komputer', 'Kampus Pusat', NULL, NULL, 'SK-KED-004', 'Kementerian Pertahanan'),
+(19, 'Nicholas Saputra', 'SMA 2 Tangerang', '85.00', '200000.00', 'kedinasan', 'Teknik Informatika', 'Kampus Pusat', NULL, NULL, 'SK-KED-005', 'Pemprov DKI Jakarta'),
+(20, 'Tara Basro', 'SMK 1 Cirebon', '88.00', '200000.00', 'kedinasan', 'Sistem Informasi', 'Kampus Pusat', NULL, NULL, 'SK-KED-006', 'Kementerian Dalam Negeri');
 
 --
 -- Indexes for dumped tables
