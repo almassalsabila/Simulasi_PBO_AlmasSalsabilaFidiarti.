@@ -16,7 +16,6 @@ class PendaftaranReguler extends Pendaftaran {
 
     // OVERRIDE: Menghitung total biaya pendaftaran reguler
     public function hitungTotalBiaya() {
-        // Tarif standar murni tanpa biaya tambahan seleksi/tes laboratorium
         return $this->biayaPendaftaranDasar;
     }
 
